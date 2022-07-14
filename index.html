@@ -80,6 +80,11 @@
               },
             });
             analytics.page();
+
+            analytics.identify('3222bff1c08b4ea99e987d43fff72f31', {
+              name: 'John Smith',
+              email: 'john.smith@acme.org'
+            });
           }
       })();
     </script>
